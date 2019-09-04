@@ -1,3 +1,5 @@
+#Written by Nikita. Works!
+
 class Player
   attr_reader :name, :figure
   attr_accessor :wins
