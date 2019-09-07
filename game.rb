@@ -20,6 +20,7 @@ player2 = Player.new("Sue", "O")
 
 
 
+
 class Game
 
   def initialize(players:)
