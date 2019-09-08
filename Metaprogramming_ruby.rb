@@ -118,6 +118,36 @@ p Class.instance_methods(false) #[:allocate, :superclass, :new]
 #classes are just objects that inherit from modules...
 #You then create objects from Classes (Car1, Car2)
 #You can hold on to a class with a reference (variable)
+class MyClass
+end
+my_class = MyClass
+#my_class and MyClass will reference the same INSTANCE of a class.
+#The only difference is that MyClass is a constant while my_class is a variable.
+
+#Constants are any reference that begin with a capital letter, including names of classes or modules.
+
+
+#Constants are kind of like a File Directory
+module MyModule
+  MyConstant = 'outer constant'
+
+  class myClass
+    MyConstant = 'Inner constant'
+  end
+end
+
+#Those MyConstants are not the same. Follow the indentation!
+#It's like a tree similar to a file system.
+# --MyModule
+#   -MyConstant
+#   --myClass
+#     -MyConstant
+
+#See how the first MyConstant is in the MyModule folder while the second is in myClass folder?
+#Modules and Classes are like directories. Constants are files.
+#As long as they are in different directories, you can have the files with the same name.
+
+#You can even access these constants from different directories with a double semi-colon:
 
 
 
