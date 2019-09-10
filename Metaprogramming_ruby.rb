@@ -91,7 +91,7 @@ p obj.instance_variables
 
 #Did you know that CLASSES have methods, not the instance objects.
 #It's because objects share the same class also share the same methods.
-#So methods musth be stored in the class, not the object itself.
+#So methods must be stored in the class, not the object itself.
 
 
 
@@ -102,6 +102,10 @@ p String.class #Class
 p Array.ancestors #[Array, Enumerable, Object, Kernel, BasicObject]
 p Array.superclass #Object
 p Object.superclass #BasicObject
+
+#Every Ruby class has a single superclass except BasicObject,
+#which is the end of the inheritance chain and doesn’t have a superclass.
+
 p BasicObject.superclass #nil
 #There is no superclass of Nil. Nil is Nil.
 
@@ -114,6 +118,7 @@ p Hash.superclass #Object
 p Class.superclass #Module
 #A class is a MODULE with three instance methods: new, allocate, and superclass.
 p Class.instance_methods(false) #[:allocate, :superclass, :new]
+
 
 #classes are just objects that inherit from modules...
 #You then create objects from Classes (Car1, Car2)
@@ -131,7 +136,7 @@ my_class = MyClass
 module MyModule
   MyConstant = 'outer constant'
 
-  class myClass
+  class MyClass
     MyConstant = 'Inner constant'
   end
 end
@@ -149,7 +154,29 @@ end
 
 #You can even access these constants from different directories with a double semi-colon:
 
+p MyModule::MyConstant # "outer constant"
 
+module Cabinet
+
+  class Drawer
+    Book = 'Moby Dick'
+  end
+
+    Drawer::Book #Moby Dick
+
+end
+
+p Cabinet::Drawer::Book #Moby Dick
+#Notice that this file system really works really well for classes and modules and constants.
+#You can't call a local variable from a module or a class this way. There is still encapsulation.
+
+#You can also go OUT of the file structure...kind of like "..\..\"
+Y = 'a global constant'
+module M
+  Y = 'constant in module M'
+  Y # "a constant in M"
+  ::Y # 'a global constant'
+end
 
 
 

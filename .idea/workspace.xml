@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9e5a86c-4aa1-4b9c-aef5-118d1f1fb1dc" name="Default Changelist" comment="" />
+    <list default="true" id="a9e5a86c-4aa1-4b9c-aef5-118d1f1fb1dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/brand delete.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Metaprogramming_ruby.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Metaprogramming_ruby.rb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,7 +15,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/tic_tac_toe@game.rcov" NAME="game Coverage Results" MODIFIED="1553356833302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tic-tac-toe" />
     <SUITE FILE_PATH="coverage/tic_tac_toe@horse_racing.rcov" NAME="horse_racing Coverage Results" MODIFIED="1568072722568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tic-tac-toe" />
-    <SUITE FILE_PATH="coverage/tic_tac_toe@Metaprogramming_ruby.rcov" NAME="Metaprogramming_ruby Coverage Results" MODIFIED="1568073026253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tic-tac-toe" />
+    <SUITE FILE_PATH="coverage/tic_tac_toe@Metaprogramming_ruby.rcov" NAME="Metaprogramming_ruby Coverage Results" MODIFIED="1568331061913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tic-tac-toe" />
     <SUITE FILE_PATH="coverage/tic_tac_toe@throw.rcov" NAME="throw Coverage Results" MODIFIED="1567817470284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tic-tac-toe" />
     <SUITE FILE_PATH="coverage/tic_tac_toe@game__1_.rcov" NAME="game (1) Coverage Results" MODIFIED="1567817159325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tic-tac-toe" />
     <SUITE FILE_PATH="coverage/tic_tac_toe@player.rcov" NAME="player Coverage Results" MODIFIED="1553314612862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tic-tac-toe" />
@@ -21,25 +25,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Metaprogramming_ruby.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+            <state relative-caret-position="361">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Metaprogramming_ruby.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2812">
+              <caret line="148" selection-start-line="148" selection-end-line="148" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/brand delete.rb">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/throw.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
+            <state relative-caret-position="931">
               <caret line="49" selection-start-line="49" selection-end-line="49" />
             </state>
           </provider>
@@ -49,12 +58,17 @@
         <entry file="file://$PROJECT_DIR$/horse_racing.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3819">
-              <caret line="201" column="6" lean-forward="true" selection-start-line="201" selection-start-column="6" selection-end-line="201" selection-end-column="6" />
+              <caret line="201" column="6" selection-start-line="201" selection-start-column="6" selection-end-line="201" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>method</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,10 +87,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
-    <option name="y" value="25" />
-    <option name="width" value="1922" />
-    <option name="height" value="926" />
+    <option name="x" value="-246" />
+    <option name="y" value="276" />
+    <option name="width" value="1914" />
+    <option name="height" value="1051" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -236,7 +250,8 @@
       <option name="presentableId" value="Default" />
       <updated>1553300711783</updated>
       <workItem from="1553300713500" duration="9361000" />
-      <workItem from="1567811513300" duration="9629000" />
+      <workItem from="1567811513300" duration="14434000" />
+      <workItem from="1568834128168" duration="232000" />
     </task>
     <task id="LOCAL-00001" summary="Tic-tac-toe game start.">
       <created>1553317513381</created>
@@ -249,12 +264,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18990000" />
+    <option name="totallyTimeSpent" value="23795000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="25" width="1922" height="926" extended-state="6" />
+    <frame x="-1" y="25" width="1922" height="936" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1505895" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15273312" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -266,8 +281,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32824427" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32824427" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32824427" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33040202" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -292,7 +307,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/game.rb</url>
-          <line>143</line>
+          <line>144</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
@@ -323,9 +338,7 @@
     <entry file="file://$USER_HOME$/.asdf/installs/ruby/2.4.4/lib/ruby/gems/2.4.0/gems/did_you_mean-1.1.0/lib/did_you_mean/core_ext/name_error.rb" />
     <entry file="file://$USER_HOME$/.asdf/installs/ruby/2.4.4/lib/ruby/gems/2.4.0/gems/ruby-debug-ide-0.7.0.beta7/lib/ruby-debug-ide.rb" />
     <entry file="file://$USER_HOME$/.asdf/installs/ruby/2.4.4/lib/ruby/gems/2.4.0/gems/did_you_mean-1.1.0/lib/did_you_mean/formatter.rb" />
-    <entry file="file://$PROJECT_DIR$/old/1">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/old/1" />
     <entry file="file://$PROJECT_DIR$/old/modules.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-78">
@@ -354,9 +367,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/game.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metaprogramming_ruby.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2812">
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/throw.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
+        <state relative-caret-position="931">
           <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
@@ -364,23 +391,12 @@
     <entry file="file://$PROJECT_DIR$/horse_racing.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3819">
-          <caret line="201" column="6" lean-forward="true" selection-start-line="201" selection-start-column="6" selection-end-line="201" selection-end-column="6" />
+          <caret line="201" column="6" selection-start-line="201" selection-start-column="6" selection-end-line="201" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metaprogramming_ruby.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/brand delete.rb">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
