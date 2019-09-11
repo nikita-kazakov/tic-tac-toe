@@ -119,6 +119,9 @@ p Class.superclass #Module
 #A class is a MODULE with three instance methods: new, allocate, and superclass.
 p Class.instance_methods(false) #[:allocate, :superclass, :new]
 
+#What's the difference between a Module and a Class?
+#A class is simply a MODULE with three instance methods (new, allocate and superclass). That's it.
+#That means a class can be instantiated (new method) while a module cannot.
 
 #classes are just objects that inherit from modules...
 #You then create objects from Classes (Car1, Car2)
@@ -178,5 +181,55 @@ module M
   ::Y # 'a global constant'
 end
 
+
+#Module class can also return all the constants that it has.
+#This is kind of like the file system "ls" <=list directory
+p M.constants #[:Y]
+
+#If you want the current path of the constant you're accessing, use the #nesting method.
+
+module M
+  class C
+    module M2
+      p Module.nesting #[M::C::M2, M::C, M]
+    end
+  end
+end
+
+#Whoa, lots of similarities between Ruby constants (Modules and Classes are CONSTANTS, remember) and your files on your computer.
+#You can even use modules to ORGANIZE your constants the same way you use your directories to organize your files.
+#you recognize RAKE, right?
+
+#module Rake
+# class Task
+
+#They used a module called rake to organize Task and FileTask just in case
+#there would be a collision with other classes. Now there isn't. YOu simply access Rake::Task
+
+
+#So what if Rake was to be upgraded to version 2.0, what happens with 1.0 users?
+#It provided a command-line option "classic-namespace" that loaded an additional source file which
+#assigned new safer constant names to old unsafe ones.
+
+
+#*********
+#SUMMARY
+#*********
+
+#So what's an object?
+#It's a class with a bunch of instance variables within it.
+p obj = "Hi"
+p obj = String.new("Hi")
+#See, SAME DAMN THING.
+
+#So what's a class?
+#It's an object (instance of a class), plus a list of instance methods and link to a superclass (inheritance).
+class A
+end
+p A.is_a?(Object) #True
+p A.superclass #Object
+p Class.superclass #Module
+
+#A class is a subclass of a Module.
 
 

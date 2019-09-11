@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9e5a86c-4aa1-4b9c-aef5-118d1f1fb1dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/brand delete.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Metaprogramming_ruby.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Metaprogramming_ruby.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,7 +13,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/tic_tac_toe@game.rcov" NAME="game Coverage Results" MODIFIED="1553356833302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tic-tac-toe" />
     <SUITE FILE_PATH="coverage/tic_tac_toe@horse_racing.rcov" NAME="horse_racing Coverage Results" MODIFIED="1568072722568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tic-tac-toe" />
-    <SUITE FILE_PATH="coverage/tic_tac_toe@Metaprogramming_ruby.rcov" NAME="Metaprogramming_ruby Coverage Results" MODIFIED="1568331061913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tic-tac-toe" />
+    <SUITE FILE_PATH="coverage/tic_tac_toe@Metaprogramming_ruby.rcov" NAME="Metaprogramming_ruby Coverage Results" MODIFIED="1568838347334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tic-tac-toe" />
     <SUITE FILE_PATH="coverage/tic_tac_toe@throw.rcov" NAME="throw Coverage Results" MODIFIED="1567817470284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tic-tac-toe" />
     <SUITE FILE_PATH="coverage/tic_tac_toe@game__1_.rcov" NAME="game (1) Coverage Results" MODIFIED="1567817159325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tic-tac-toe" />
     <SUITE FILE_PATH="coverage/tic_tac_toe@player.rcov" NAME="player Coverage Results" MODIFIED="1553314612862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tic-tac-toe" />
@@ -31,16 +29,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Metaprogramming_ruby.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2812">
-              <caret line="148" selection-start-line="148" selection-end-line="148" />
+            <state relative-caret-position="421">
+              <caret line="223" column="7" lean-forward="true" selection-start-line="223" selection-start-column="7" selection-end-line="223" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/brand delete.rb">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -107,6 +105,10 @@
             <path>
               <item name="tic-tac-toe" type="b2602c69:ProjectViewProjectNode" />
               <item name="tic-tac-toe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tic-tac-toe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -251,7 +253,7 @@
       <updated>1553300711783</updated>
       <workItem from="1553300713500" duration="9361000" />
       <workItem from="1567811513300" duration="14434000" />
-      <workItem from="1568834128168" duration="232000" />
+      <workItem from="1568834128168" duration="4317000" />
     </task>
     <task id="LOCAL-00001" summary="Tic-tac-toe game start.">
       <created>1553317513381</created>
@@ -264,7 +266,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23795000" />
+    <option name="totallyTimeSpent" value="28112000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1922" height="936" extended-state="6" />
@@ -274,7 +276,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32883435" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2989822" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2977387" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990025" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -282,7 +284,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32824427" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33040202" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33040202" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -374,13 +376,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Metaprogramming_ruby.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2812">
-          <caret line="148" selection-start-line="148" selection-end-line="148" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/throw.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="931">
@@ -397,6 +392,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/brand delete.rb">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs26/module.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3595">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/2.6.0/csv/core_ext/string.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/2.6.0/abbrev.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2090">
+          <caret line="110" column="6" selection-start-line="110" selection-start-column="6" selection-end-line="110" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs26/jruby_extensions.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2337">
+          <caret line="123" column="6" selection-start-line="123" selection-start-column="6" selection-end-line="123" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/2.6.0/csv/core_ext/array.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/2.6.0/pp.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="328" column="6" selection-start-line="328" selection-start-column="6" selection-end-line="328" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs26/array.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="1690" column="33" lean-forward="true" selection-start-line="1690" selection-start-column="33" selection-end-line="1690" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metaprogramming_ruby.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="223" column="7" lean-forward="true" selection-start-line="223" selection-start-column="7" selection-end-line="223" selection-end-column="7" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
