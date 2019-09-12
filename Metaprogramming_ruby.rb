@@ -229,7 +229,88 @@ end
 p A.is_a?(Object) #True
 p A.superclass #Object
 p Class.superclass #Module
-
 #A class is a subclass of a Module.
 
+#What's the class of an object?
+p Object.class #Class
+#ALL OBJECTS are CLASSES in Ruby. For example
+# "Hi there" is String.new("Hi there") (it's a string CLASS)
+# [1,2,3] is really Array.new(1,2,3) (it's an array CLASS)
+# Same with Hash and numbers
+p String.class #Class
+p Numeric.class #Class
+p Array.class #Class
+p Class.class #Class
 
+
+
+
+
+
+#New SECTION - Using NameSpaces
+#Somewhere in the code, there is a module called "Text"
+module Text
+end
+
+#As we continue through the program in the book "bookworm" we stumble on this class:
+class TEXT
+end
+
+#You say, wait a minute...let's rename that to just "Text", camelcased.
+
+#class Text
+#end
+
+# You get ERROR: Text is not a class (TypeError). What the heck happened?
+
+#You already had a module named Text. Ruby raised an error on naming the class Text.
+#The solution? wrap that class sucker in a module.
+
+module Bookworm
+  class Text
+    p'boom, it works now'
+  end
+end
+
+#You can now change references to:
+Bookworm::Text
+
+
+
+
+
+#Calling a Method
+#When you call a method, 2 things happen:
+#1 - It finds the method using a process called METHOD LOOKUP.
+#2 - It executes the method and it needs "SELF" to do that.
+
+
+#When you call a method, Ruby looks into the objects class and finds a method there.
+#You can show this using a debugger.
+
+#You should know about the RECEIVER and ANCESTORS CHAIN
+#The receiver is the object you call the method on:
+class Dude
+  def speak
+    "Yo!"
+  end
+end
+
+dude1 = Dude.new
+p dude1.speak #<==dude1 is the receiver here.
+
+#Receiver chain? Simple.  Ruby goes into receiver class and if it doesn't find a method there, it goes up
+#the ancestors chain until it finds the method.
+
+class BigDude < Dude
+end
+
+bigdude1 = BigDude.new
+bigdude1.speak
+#Notice that to call bigdude1.speak, it had to go to the BigDude class...didn't find speak method there,
+#then went to Dude class as it is inherited and found it there!
+
+#You can ask an object for it's ancestor chain like this:
+p BigDude.ancestors #[BigDude, Dude, Object, Kernel, BasicObject]
+
+#On page 30
