@@ -308,9 +308,49 @@ end
 bigdude1 = BigDude.new
 bigdude1.speak
 #Notice that to call bigdude1.speak, it had to go to the BigDude class...didn't find speak method there,
-#then went to Dude class as it is inherited and found it there!
+#then went to Dude class as it is inherited and found it there! If it didn't find it there it would follow
+#the chain all the way to BasicObject
 
 #You can ask an object for it's ancestor chain like this:
 p BigDude.ancestors #[BigDude, Dude, Object, Kernel, BasicObject]
 
-#On page 30
+#What the heck is the Kernel doing in the ancestors?
+#Actually, ancestor chain doesn't just go from Class to Superclass...it also includes MODULES. when you INCLUDE
+#a module in a class, Ruby will insert the module in the ancestor chain.
+#That means Kernel is module
+
+
+#Let's take a look at what we mean. Let's INCLUDE the module within the vehicle class.
+module BasicLocomotive
+end
+
+class Vehicle
+  include BasicLocomotive
+end
+
+class Car < Vehicle
+end
+
+#Notice that Ruby first scans Vehicle class and THEN BasicLocomotive
+p Car.ancestors #[Car, Vehicle, BasicLocomotive, Object, Kernel, BasicObject]
+
+
+
+
+#You can reverse that. You can make it so that it first scans BasicLocomotive and THEN Vehicle using prepend.
+# I couldn't get it to work here for some reason.
+module BasicLocomotive
+end
+
+class Vehicle
+  prepend BasicLocomotive
+end
+
+class Car < Vehicle
+end
+
+#Notice that Ruby first scans Vehicle class and THEN BasicLocomotive
+p Car.ancestors #Prepend doesn't work for some reason. I don't know why.
+
+
+
