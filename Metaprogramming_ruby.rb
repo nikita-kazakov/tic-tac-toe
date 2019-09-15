@@ -354,3 +354,159 @@ p Car.ancestors #Prepend doesn't work for some reason. I don't know why.
 
 
 
+
+
+
+
+#So what the heck is Kernel? It shows up in our ancestor chain.
+#Kernel includes methods such as "print" that you can call from ANYWHERE in your code.
+# Look at how Kernel is AFTER the Object in the chain.
+p Class.ancestors #[Class, Module, Object, Kernel, BasicObject]
+
+#This means any object can call Kernel and it's methods, including print. Print is simply a method.
+#If you add a method to the Kernel module, it will be available to ALL objects.
+
+
+
+#Back to methods again, recall:
+# #When you call a method, 2 things happen:
+# #1 - It finds the method using a process called METHOD LOOKUP.
+# #2 - It executes the method and it needs "SELF" to do that.
+
+#We now know how method lookup (1) works with ancestor chain.
+#How does it execute the method(2)?
+
+#How will this get executed? You need to answer 2 questions:
+#1- What object does the instance variables @x belong to?
+#2- What object should you call my_other_method on?
+def my_method
+  temp = @x + 1
+  my_other_method(temp)
+end
+
+#As a human you're smart, you see that @x and my_other_method belongs to the receiver...the object that
+#my_method was called upon.  Computers aren't that smart.
+
+#EVERY line of Ruby is executed within an object (think of scope), the CURRENT object. The current object is also
+#known as self. You can access it with the self keyword.
+
+#When you call a method, the receiver becomes SELF. From that moment on, all instance variables are instance
+#variables belonging to SELF. All methods without an explicit reciever are called on SELF. That continues until
+#your code calls a method upon some other object.
+#Let's look at a simple example:
+
+class MyClass
+  def testing_self
+    @var = 10
+    my_method
+    self
+  end
+
+  def my_method
+    @var = @var + 1
+  end
+end
+
+obj = MyClass.new
+p obj.testing_self ##<MyClass:0x0000559edbc25a90 @var=11>
+
+#What happened? It returned "MyClass". The scope from which #testing_self ran from was MyClass. It ran my_method, which
+#again had the self receiver, which was MyClass, and returned self.
+
+#In other words, this below would be the same as above:
+class MyClass
+  def testing_self
+    @var = 10
+    self.my_method #I added self.my_method to make it more explicit. Ruby does this itself.
+    self
+  end
+
+  def my_method
+    @var = @var + 1
+  end
+end
+
+obj = MyClass.new
+p obj.testing_self ##<MyClass:0x0000559edbc25a90 @var=11>
+
+
+#Now that you know SELF, we can take a look at how private methods work.
+#You can't call a private method with an EXPLICIT receiver. That means if you want to call a private method,
+#it can only be called by an IMPLICIT receiver (which is self)
+
+
+class C
+  def public_method
+    p self
+    p private_method
+  end
+  private
+
+  def private_method
+    p self
+  end
+end
+
+C.new.public_method
+
+#So who is the receiver at any moment?
+#You just learned that anytime you call a method on an object that object becomes self.
+
+#you can ask ruby this question anytime. Just stick self inside a method or a module or class to know.
+p self #main
+p self.class #Object
+
+#MAIN is the top level stack. Top level context. GLOBAL.
+class Gold
+  self #MyClass
+end
+
+
+#QUIZ TIME. See code below:
+module Printable
+  def print
+    # ...
+    "Printable#print()"
+  end
+
+  def prepare_cover
+    # ...
+  end
+end
+
+
+module Document
+  def print_to_screen
+    prepare_cover
+    format_for_screen
+    print
+  end
+
+  def format_for_screen
+    # ...
+  end
+
+  def print
+    # ...
+    "Document#print()"
+  end
+end
+
+class Book
+  include Document
+  include Printable #<==this one is the first in chain...counter intuitive but run ancestors on Book class..you'll see.
+  # ...
+end
+
+b = Book.new
+b.print_to_screen
+
+#The company says there's a bug because the WRONG PRINT is being called. Which print_to_screen is called?
+#The one from Printable or the one from document?
+#Let's check book ancestors:
+Book.ancestors  # => [Book, Printable, Document, Object, Kernel, BasicObject]
+
+#When you call b.print_to_screen, the object referenced by b becomes self. That object is Book.
+#
+#Whew, you're done for monday. Next day, we'll talk more indepth about methods. Don't worry...this was
+#a lot of information to handle.
