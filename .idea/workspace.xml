@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9e5a86c-4aa1-4b9c-aef5-118d1f1fb1dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Metaprogramming_ruby.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Metaprogramming_ruby.rb" afterDir="false" />
-    </list>
+    <list default="true" id="a9e5a86c-4aa1-4b9c-aef5-118d1f1fb1dc" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +11,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/tic_tac_toe@game.rcov" NAME="game Coverage Results" MODIFIED="1553356833302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tic-tac-toe" />
     <SUITE FILE_PATH="coverage/tic_tac_toe@horse_racing.rcov" NAME="horse_racing Coverage Results" MODIFIED="1568072722568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tic-tac-toe" />
-    <SUITE FILE_PATH="coverage/tic_tac_toe@Metaprogramming_ruby.rcov" NAME="Metaprogramming_ruby Coverage Results" MODIFIED="1568838347334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tic-tac-toe" />
+    <SUITE FILE_PATH="coverage/tic_tac_toe@Metaprogramming_ruby.rcov" NAME="Metaprogramming_ruby Coverage Results" MODIFIED="1568873198511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tic-tac-toe" />
     <SUITE FILE_PATH="coverage/tic_tac_toe@throw.rcov" NAME="throw Coverage Results" MODIFIED="1567817470284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tic-tac-toe" />
     <SUITE FILE_PATH="coverage/tic_tac_toe@game__1_.rcov" NAME="game (1) Coverage Results" MODIFIED="1567817159325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tic-tac-toe" />
     <SUITE FILE_PATH="coverage/tic_tac_toe@player.rcov" NAME="player Coverage Results" MODIFIED="1553314612862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tic-tac-toe" />
@@ -29,13 +27,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Metaprogramming_ruby.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="223" column="7" lean-forward="true" selection-start-line="223" selection-start-column="7" selection-end-line="223" selection-end-column="7" />
+            <state relative-caret-position="325">
+              <caret line="511" column="32" selection-start-line="511" selection-start-column="32" selection-end-line="511" selection-end-column="32" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Metaprogramming_ruby_part2.rb">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -66,6 +69,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>method</find>
+      <find>class</find>
+      <find>modul</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -253,7 +258,7 @@
       <updated>1553300711783</updated>
       <workItem from="1553300713500" duration="9361000" />
       <workItem from="1567811513300" duration="14434000" />
-      <workItem from="1568834128168" duration="4317000" />
+      <workItem from="1568834128168" duration="13597000" />
     </task>
     <task id="LOCAL-00001" summary="Tic-tac-toe game start.">
       <created>1553317513381</created>
@@ -266,7 +271,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28112000" />
+    <option name="totallyTimeSpent" value="37392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1922" height="936" extended-state="6" />
@@ -276,15 +281,15 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32883435" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2977387" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990025" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2977387" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3982412" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32824427" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33040202" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32788944" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33040202" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -321,6 +326,11 @@
           <url>file://$PROJECT_DIR$/horse_racing.rb</url>
           <line>246</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/Metaprogramming_ruby.rb</url>
+          <line>449</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -444,10 +454,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Metaprogramming_ruby.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="223" column="7" lean-forward="true" selection-start-line="223" selection-start-column="7" selection-end-line="223" selection-end-column="7" />
+        <state relative-caret-position="325">
+          <caret line="511" column="32" selection-start-line="511" selection-start-column="32" selection-end-line="511" selection-end-column="32" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metaprogramming_ruby_part2.rb">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
