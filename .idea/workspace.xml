@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9e5a86c-4aa1-4b9c-aef5-118d1f1fb1dc" name="Default Changelist" comment="" />
+    <list default="true" id="a9e5a86c-4aa1-4b9c-aef5-118d1f1fb1dc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Metaprogramming_ruby_part2.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Metaprogramming_ruby_part2.rb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +17,7 @@
     <SUITE FILE_PATH="coverage/tic_tac_toe@throw.rcov" NAME="throw Coverage Results" MODIFIED="1567817470284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tic-tac-toe" />
     <SUITE FILE_PATH="coverage/tic_tac_toe@game__1_.rcov" NAME="game (1) Coverage Results" MODIFIED="1567817159325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tic-tac-toe" />
     <SUITE FILE_PATH="coverage/tic_tac_toe@player.rcov" NAME="player Coverage Results" MODIFIED="1553314612862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tic-tac-toe" />
+    <SUITE FILE_PATH="coverage/tic_tac_toe@Metaprogramming_ruby_part2.rcov" NAME="Metaprogramming_ruby_part2 Coverage Results" MODIFIED="1568920415875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="tic-tac-toe" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -36,8 +39,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Metaprogramming_ruby_part2.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="194" selection-start-line="194" selection-end-line="200" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/metaprogramming_ruby_part3.rb">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -86,6 +98,7 @@
         <option value="$PROJECT_DIR$/horse_racing.rb" />
         <option value="$PROJECT_DIR$/game.rb" />
         <option value="$PROJECT_DIR$/Metaprogramming_ruby.rb" />
+        <option value="$PROJECT_DIR$/Metaprogramming_ruby_part2.rb" />
       </list>
     </option>
   </component>
@@ -125,6 +138,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -144,7 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Ruby.Metaprogramming_ruby">
+  <component name="RunManager" selected="Ruby.Metaprogramming_ruby_part2">
     <configuration name="Metaprogramming_ruby" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="tic-tac-toe" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
@@ -163,6 +177,24 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
+    <configuration name="Metaprogramming_ruby_part2" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="tic-tac-toe" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Metaprogramming_ruby_part2.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
     <configuration name="game (1)" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="tic-tac-toe" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
@@ -178,24 +210,6 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/game.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="game" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="tic-tac-toe" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/old/game.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
@@ -237,11 +251,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Ruby.Metaprogramming_ruby_part2" />
         <item itemvalue="Ruby.Metaprogramming_ruby" />
         <item itemvalue="Ruby.horse_racing" />
         <item itemvalue="Ruby.throw" />
         <item itemvalue="Ruby.game (1)" />
-        <item itemvalue="Ruby.game" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +272,7 @@
       <updated>1553300711783</updated>
       <workItem from="1553300713500" duration="9361000" />
       <workItem from="1567811513300" duration="14434000" />
-      <workItem from="1568834128168" duration="13597000" />
+      <workItem from="1568834128168" duration="17139000" />
     </task>
     <task id="LOCAL-00001" summary="Tic-tac-toe game start.">
       <created>1553317513381</created>
@@ -271,7 +285,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37392000" />
+    <option name="totallyTimeSpent" value="40934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1922" height="936" extended-state="6" />
@@ -460,6 +474,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Metaprogramming_ruby_part2.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="194" selection-start-line="194" selection-end-line="200" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metaprogramming_ruby_part3.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>

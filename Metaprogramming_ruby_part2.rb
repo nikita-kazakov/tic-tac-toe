@@ -189,5 +189,3 @@ end
 
 #NOT BAD...we just cut down a bunch of def end methods to just single liners.
 
-
-
